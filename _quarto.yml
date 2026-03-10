@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Roshan Shifna Niyas | MBA Portfolio"
+  navbar:
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: experience.qmd
+        text: Experience
+      - href: education.qmd
+        text: Education
+      - href: skills.qmd
+        text: Skills
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/roshan-shifna
+        aria-label: LinkedIn
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: false
